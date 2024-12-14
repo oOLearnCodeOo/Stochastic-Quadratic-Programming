@@ -100,27 +100,7 @@ optimal_x = optimizer.stochastic_sqp()
 print("Optimal solution:", optimal_x.detach().numpy())
 ```
 
-## Project Structure
-stochastic-sqp-optimizer/
-├── optimizer/               # Core modules for constraints, objective, and optimizer
-│   ├── __init__.py
-│   ├── constraints.py
-│   ├── objective.py
-│   ├── optimizer.py
-│   ├── parameters.py
-├── tests/                   # Unit tests
-│   ├── __init__.py
-│   ├── test_constraints.py
-│   ├── test_objective.py
-├── examples/                # Usage examples
-│   ├── example_rosenbrock.py
-│   ├── example_constrained.py
-├── README.md                # Project documentation
-├── LICENSE                  # License file
-├── requirements.txt         # Python dependencies
-└── setup.py                 # Installation configuration
-
 ## License
 License
 
-This project is licensed under the MIT License - see the [https://opensource.org/license/mit][LICENSE].
+This project is licensed under the MIT License - see the [LICENSE file for details](https://opensource.org/licenses/MIT).
