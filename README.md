@@ -4,7 +4,7 @@ A Python implementation of Stochastic Sequential Quadratic Programming (SQP) for
 
 ## Features
 
-- Supports both constrained and unconstrained optimization.
+- Supports both constrained optimization.
 - Automatically checks LICQ (Linear Independence Constraint Qualification).
 - Includes examples for solving optimization problems, such as the Rosenbrock function and constrained quadratic problems.
 
