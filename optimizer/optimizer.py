@@ -1,5 +1,12 @@
 import torch
 from torch.nn import Parameter
+from .parameters import Parameters
+import os
+import sys
+# 获取项目根目录的绝对路径
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../"))
+# 将项目根目录添加到 sys.path
+sys.path.insert(0, project_root)
 
 class Optimizer(Parameters):
     def __init__(self, objective, constraints, x0, **kwargs):
