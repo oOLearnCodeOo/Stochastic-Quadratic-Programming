@@ -1,4 +1,7 @@
-class Optimizer(Parameters):
+import torch
+from torch.nn import Parameter
+
+class Optimizer_DAG(Parameters):
     def __init__(self, objective, constraints, x0, mask, d, **kwargs):
         """
         初始化优化器。

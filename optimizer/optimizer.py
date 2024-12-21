@@ -1,5 +1,5 @@
 import torch
-from optimizer.parameters import Parameters
+from torch.nn import Parameter
 
 class Optimizer(Parameters):
     def __init__(self, objective, constraints, x0, **kwargs):
